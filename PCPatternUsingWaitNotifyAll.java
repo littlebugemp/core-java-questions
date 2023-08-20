@@ -1,10 +1,8 @@
-import java.io.ObjectStreamException;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class PDPatternUsingWaitNotifyAll {
+public class PCPatternUsingWaitNotifyAll {
 
     public class MyBlockingQueue<E>{
         private Queue<E> queue;
